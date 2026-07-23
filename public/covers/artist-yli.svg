@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<defs>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#f4f4f6"/><stop offset="0.45" stop-color="#9a9aa4"/>
+  <stop offset="0.6" stop-color="#e8e8ec"/><stop offset="1" stop-color="#4a4a52"/>
+</linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+<feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.14"/></feComponentTransfer>
+<feComposite operator="over" in2="SourceGraphic"/></filter>
+<radialGradient id="vig" cx="0.5" cy="0.4" r="0.78">
+  <stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.72"/>
+</radialGradient>
+</defs>
+<rect width="800" height="1000" fill="#0b0a0b"/>
+<g transform="translate(400 420) rotate(-3) scale(4.9) translate(-50 -50)"><path d="M50 0 C54 33 67 46 100 50 C67 54 54 67 50 100 C46 67 33 54 0 50 C33 46 46 33 50 0 Z" fill="url(#silver)"/></g>
+<g transform="translate(650 150) rotate(0) scale(1.1) translate(-50 -50)"><path d="M50 0 C54 33 67 46 100 50 C67 54 54 67 50 100 C46 67 33 54 0 50 C33 46 46 33 50 0 Z" fill="none" stroke="#55555c" stroke-width="3"/></g>
+<text x="48" y="880" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="96" fill="#f0efec">YLI</text>
+<text x="52" y="928" font-family="Courier New, monospace" font-size="22" letter-spacing="6" fill="#8a8a90" text-anchor="start">COVER</text>
+<text x="752" y="92" font-family="Courier New, monospace" font-size="22" letter-spacing="6" fill="#8a8a90" text-anchor="end">RAVEX ✦</text>
+<rect width="800" height="1000" fill="url(#vig)"/>
+<rect width="800" height="1000" filter="url(#grain)" opacity="0.5"/>
+</svg>

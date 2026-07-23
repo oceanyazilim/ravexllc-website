@@ -1,0 +1,13 @@
+// This site uses NO database. This file is an intentionally empty placeholder
+// (no models) kept only because the hosting build pipeline runs `prisma generate`.
+// It has zero effect on `next build` / `npm run build`.
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
