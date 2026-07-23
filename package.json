@@ -1,6 +1,10 @@
 {
-  "name": "app",
+  "name": "ravexllc-website",
   "private": true,
+  "packageManager": "yarn@4.9.2",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
